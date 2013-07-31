@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1357152327</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\DeviceStandardReq.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_int.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_clkpwr.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cpu_c.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_cpu_c.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_eeprom.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cpu_c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cpu_a.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_eeprom.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_gpio.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_pinsel.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_wwdt.o</file>
+      <file>$PROJ_DIR$\Release\Obj\config_srv.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ConfigDescriptor.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_int.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Events.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_talk_task.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_clkpwr.o</file>
+      <file>$PROJ_DIR$\Release\Obj\USBMemory.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_cm3.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Events.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_cpu_c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_task.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_cpu_a.o</file>
+      <file>$PROJ_DIR$\Release\Obj\DeviceStandardReq.o</file>
+      <file>$PROJ_DIR$\Release\Obj\USBTask.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Descriptors.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_talk_task.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_pinsel.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_wwdt.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Descriptors.o</file>
+      <file>$PROJ_DIR$\Release\Obj\HostStandardReq.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\USBMemory.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\USBTask.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ConfigDescriptor.o</file>
+      <file>$PROJ_DIR$\Release\Obj\HostStandardReq.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_task.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_cm3.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp.o</file>
+      <file>$PROJ_DIR$\Release\Obj\config_srv.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_cfg_app.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_tmr.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_var.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_core.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_dbg.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_flag.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_int.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_mem.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\Attributes.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\CompilerSpecific.h</file>
+      <file>$PROJ_DIR$\Release\Obj\os_stat.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\ArchitectureSpecific.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\Common.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\Architectures.h</file>
+      <file>$PROJ_DIR$\Release\Obj\os_task.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\BoardTypes.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\USB.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Common\Endianness.h</file>
+      <file>$PROJ_DIR$\src\bsp\bsp.c</file>
+      <file>$PROJ_DIR$\src\bsp\bsp_int.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\usb_task.c</file>
+      <file>$PROJ_DIR$\src\debug\debug.c</file>
+      <file>$PROJ_DIR$\src\os_cfg_app.h</file>
+      <file>$PROJ_DIR$\src\os_cfg.h</file>
+      <file>$PROJ_DIR$\src\main.h</file>
+      <file>$PROJ_DIR$\Release\Obj\os_sem.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_tick.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_prio.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_pend_multi.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_q.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_msg.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_mutex.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_pend_multi.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_prio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_q.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_sem.pbi</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_nvic.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_ssp.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_pinsel.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_pwm.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_emac.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_gpdma.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_eeprom.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc_types.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_crc.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_clkpwr.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_emc.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_rtc.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_mcpwm.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_gpio.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_dac.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_exti.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_adc.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_mci.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_i2s.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_i2c.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\CoreSupport\core_cm3.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\sram_bootloader.icf</file>
+      <file>$PROJ_DIR$\src\iap\iap.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\CoreSupport\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_can.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\CoreSupport\core_cm3.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\CoreSupport\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\src\iap\iap.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Core\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\debug_frmwrk.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_qei.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_systick.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_timer.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_uart.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\include\lpc177x_8x_wwdt.h</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_clkpwr.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_pinsel.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_gpio.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_eeprom.c</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_wwdt.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\DeviceStandardReq.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Events.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\EndpointStream.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Endpoint.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Events.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Host.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\ConfigDescriptor.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Device.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\nxpUSBlibConfig.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\DeviceStandardReq.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Version.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\ConfigDescriptor.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\HostStandardReq.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\HostStandardReq.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\OTG.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Pipe.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\PipeStream.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\StdDescriptors.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\StdRequestType.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBController.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBInterrupt.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBMemory.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBMemory.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBMode.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBTask.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBTask.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Device_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Endpoint_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Endpoint_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Device_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\EndpointStream_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\EndpointStream_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Host_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Host_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Pipe_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Pipe_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\PipeStream_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\PipeStream_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\USBController_LPC.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\USBController_LPC.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\DCD\EndpointCommon.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Endpoint_LPC17xx.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Endpoint_LPC17xx.pbi</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_dbg.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Ports\ARM-Cortex-M3\IAR\os_cpu_c.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Ports\ARM-Cortex-M3\IAR\os_cpu.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\HAL\HAL_LPC.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\includes.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_mem.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_flag.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_core.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_int.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Ports\ARM-Cortex-M3\IAR\os_cpu_a.asm</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_cfg_app.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_msg.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_mutex.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_pend_multi.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_prio.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_q.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_sem.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_stat.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_task.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_tick.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_time.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_tmr.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_type.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\Source\os_var.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-CPU\cpu_core.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-CPU\ARM-Cortex-M3\cpu.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-CPU\cpu_def.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-CPU\cpu_core.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_ascii.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-CPU\ARM-Cortex-M3\cpu_c.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-CPU\ARM-Cortex-M3\cpu_a.asm</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_math.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_def.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_ascii.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_math.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_mem.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_mem.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_str.c</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_str.h</file>
+      <file>$PROJ_DIR$\src\uCOS-III\uC-LIB\Ports\ARM-Cortex-M3\lib_mem_a.asm</file>
+      <file>$PROJ_DIR$\Release\Obj\os_time.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_msg.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_stat.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_task.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_tick.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_time.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_tmr.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\os_var.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MassStorageClassDevice.c</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_str.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_ascii.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\DCD\LPC17XX\Endpoint_LPC17xx.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_math.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MassStorageClassDevice.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\RNDISClassDevice.c</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_math.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MIDIClassDevice.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_mem_a.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MIDIClassDevice.c</file>
+      <file>$PROJ_DIR$\Release\Obj\USBController_LPC.o</file>
+      <file>$PROJ_DIR$\Release\Obj\HAL_LPC17xx.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Pipe_LPC.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Device_LPC.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\RNDISClassDevice.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\AudioClassDevice.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\AudioClassDevice.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\CDCClassDevice.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\CDCClassDevice.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\DCD\LPC17XX\Device_LPC17xx.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Host_LPC.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\HAL_LPC17xx.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cpu_core.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_mem.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_str.o</file>
+      <file>$PROJ_DIR$\Release\Obj\HIDParser.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\MassStorageClass.h</file>
+      <file>$PROJ_DIR$\Release\Obj\RNDISClassDevice.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\RNDISClassDevice.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Pipe_LPC.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\AudioClass.h~</file>
+      <file>$PROJ_DIR$\Release\Obj\Device_LPC.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\HIDClassDevice.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\EndpointStream_LPC.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\PrinterClassCommon.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\MIDIClassCommon.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\MassStorageClassCommon.h</file>
+      <file>$PROJ_DIR$\Release\Obj\MassStorageClassDevice.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\MIDIClassDevice.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\StillImageClassCommon.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\RNDISClassCommon.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_ascii.o</file>
+      <file>$PROJ_DIR$\Release\Obj\CDCClassDevice.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\PrinterClass.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\HIDReportData.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\HIDParser.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\HIDParser.c</file>
+      <file>$PROJ_DIR$\Release\List\Pipe_LPC.lst</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\DCD\LPC17XX\Endpoint_LPC17xx.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Release\List\DeviceStandardReq.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\PipeStream_LPC.o</file>
+      <file>$PROJ_DIR$\Release\Obj\PipeStream_LPC.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\USBController_LPC.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\RNDISClass.h</file>
+      <file>$PROJ_DIR$\Release\Obj\utils_srv.o</file>
+      <file>$PROJ_DIR$\Release\Obj\MassStorageClassDevice.o</file>
+      <file>$PROJ_DIR$\Release\Obj\HIDClassDevice.o</file>
+      <file>$PROJ_DIR$\Release\Obj\utils_srv.pbi</file>
+      <file>$PROJ_DIR$\Release\List\cpu_core.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Release\List\HAL_LPC17xx.lst</file>
+      <file>$PROJ_DIR$\Release\List\USBController_LPC.lst</file>
+      <file>$PROJ_DIR$\Release\List\USBTask.lst</file>
+      <file>$PROJ_DIR$\Release\List\lpc177x_8x_eeprom.lst</file>
+      <file>$PROJ_DIR$\Release\List\ConfigDescriptor.lst</file>
+      <file>$PROJ_DIR$\Release\List\Endpoint_LPC17xx.lst</file>
+      <file>$PROJ_DIR$\Release\List\Endpoint_LPC.lst</file>
+      <file>$PROJ_DIR$\Release\List\Device_LPC.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Release\List\USBMemory.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\Release\List\os_q.lst</file>
+      <file>$PROJ_DIR$\Release\List\core_cm3.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_tick.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_dbg.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_int.lst</file>
+      <file>$PROJ_DIR$\Release\List\Host_LPC.lst</file>
+      <file>$PROJ_DIR$\Release\List\cpu_a.lst</file>
+      <file>$PROJ_DIR$\Release\List\lpc177x_8x_wwdt.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\List\iap.lst</file>
+      <file>$PROJ_DIR$\Release\List\Events.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\Release\List\Descriptors.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Release\List\lpc177x_8x_gpio.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\HIDClassDevice.h</file>
+      <file>$PROJ_DIR$\Release\List\HostStandardReq.lst</file>
+      <file>$PROJ_DIR$\Release\List\cpu_c.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\lib_mem.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\CDCClassCommon.h</file>
+      <file>$PROJ_DIR$\Release\Obj\AudioClassDevice.pbi</file>
+      <file>$PROJ_DIR$\Release\List\EndpointStream_LPC.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\MIDIClassDevice.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\HIDClassCommon.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Host_LPC.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\HIDClassDevice.c</file>
+      <file>$PROJ_DIR$\Release\Obj\cpu_core.o</file>
+      <file>$PROJ_DIR$\Release\Obj\EndpointStream_LPC.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\MIDIClass.h</file>
+      <file>$PROJ_DIR$\Release\Obj\AudioClassDevice.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\AudioClass.h</file>
+      <file>$PROJ_DIR$\Release\Obj\CDCClassDevice.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\LPC-DfuSe-Bootloader.hex</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\HIDClass.h</file>
+      <file>$PROJ_DIR$\Release\Obj\HIDParser.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Endpoint_LPC.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system_LPC177x_8x.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\AudioClassCommon.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Endpoint_LPC.o</file>
+      <file>$PROJ_DIR$\Release\List\PipeStream_LPC.lst</file>
+      <file>$PROJ_DIR$\Release\List\app_vect.lst</file>
+      <file>$PROJ_DIR$\Release\List\lib_math.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\debug.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\debug.o</file>
+      <file>$PROJ_DIR$\Release\List\os_prio.lst</file>
+      <file>$PROJ_DIR$\Release\List\bsp_int.lst</file>
+      <file>$PROJ_DIR$\src\config_srv\config_srv.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\StillImageClass.h</file>
+      <file>$PROJ_DIR$\Release\List\debug.lst</file>
+      <file>$PROJ_DIR$\Release\List\bsp.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\system_LPC177x_8x.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\iap.o</file>
+      <file>$PROJ_DIR$\Release\Obj\iap.pbi</file>
+      <file>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\CDCClass.h</file>
+      <file>$PROJ_DIR$\Release\List\lib_ascii.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_task.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_core.lst</file>
+      <file>$PROJ_DIR$\Release\List\lib_mem.lst</file>
+      <file>$PROJ_DIR$\Release\List\lpc177x_8x_clkpwr.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_pend_multi.lst</file>
+      <file>$PROJ_DIR$\Release\List\lpc177x_8x_pinsel.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_stat.lst</file>
+      <file>$PROJ_DIR$\Release\List\lib_mem_a.lst</file>
+      <file>$PROJ_DIR$\Release\List\utils_srv.lst</file>
+      <file>$PROJ_DIR$\Release\List\lib_str.lst</file>
+      <file>$PROJ_DIR$\Release\List\main.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_cfg_app.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_cpu_c.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_flag.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_msg.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_cpu_a.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_mem.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_mutex.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_time.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_tmr.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_var.lst</file>
+      <file>$PROJ_DIR$\Release\List\os_sem.lst</file>
+      <file>$PROJ_DIR$\Release\List\usb_task.lst</file>
+      <file>$PROJ_DIR$\Release\List\system_LPC177x_8x.lst</file>
+      <file>$PROJ_DIR$\Release\List\lpc177x_8x_uart.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_uart.o</file>
+      <file>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_uart.c</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc177x_8x_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Release\List\LPC-DfuSe-Bootloader.map</file>
+      <file>$PROJ_DIR$\Release\Obj\os_core.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_mutex.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_cfg_app.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_mem.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_int.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_dbg.o</file>
+      <file>$PROJ_DIR$\Release\Obj\os_flag.o</file>
+      <file>$PROJ_DIR$\src\src\usb_task\dfu.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\Descriptors.c</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\app_cfg.h</file>
+      <file>$PROJ_DIR$\src\cpu_cfg.h</file>
+      <file>$PROJ_DIR$\src\utils\utils_srv.c</file>
+      <file>$PROJ_DIR$\src\app_vect.c</file>
+      <file>$PROJ_DIR$\src\src\usb_task\Descriptors.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\usb_talk_task.c</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\app_vect.o</file>
+      <file>$PROJ_DIR$\Release\Exe\LPC-DfuSe-Bootloader.out</file>
+      <file>$PROJ_DIR$\Release\Obj\app_vect.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\LPC-DfuSe-Bootloader.pbd</file>
+      <file>$PROJ_DIR$\src\debug\debug.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\src\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\src\bsp\bsp_int.h</file>
+      <file>$PROJ_DIR$\src\utils\utils_srv.h</file>
+      <file>$PROJ_DIR$\src\config_srv\config_srv.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\usb_task.h</file>
+      <file>$PROJ_DIR$\src\src\usb_task\usb_talk_task.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\src\bsp\bsp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 343 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 405 300 404 108 407 406 409 408 410 411 412 114 99 104 102 106 85 80 420 198 191 192 392 165 193 202 391 65 403 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 66 167 188 419</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bsp\bsp_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 339 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165 420</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\usb_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 371 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 418 404 406 409 408 410 411 412 413 414 415 416 417 286 264 288 275 191 192 392 407 198 199 200 193 202 391 65 403 405 64 204 299 284 285 303 298 297 308 304 420 165 167 188 58 54 306 128 53 55 51 300 50 57 66 59 143 145 139 159 124 140 127 137 123 147 217 160 166 169 99 104 102 106 85 149 234 120 138 122 151 131 132 324 231 331 347 233 313 327 309 317 260 259 241 219 251 322 222 250 258 269 229 255 341 395 91 80 388 101 423</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\debug\debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 336</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342 337</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 418 404 406 409 408 410 411 412 413 414 415 416 417 286 264 288 275 191 192 392 407 198 199 200 193 202 391 65 403 405 64 204 299 284 285 303 298 297 308 304 420 165 167 188 99 104 102 300 106 419 421 113 85 91 80 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Core\CoreSupport\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 407 404 406 409 408 410 411 412</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Core\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 344</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 372 330</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 407 404 406 409 408 410 411 412 99 104 102 300 106 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\iap\iap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301 345</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 418 404 406 409 408 410 411 412 413 414 415 416 417 286 264 288 275 191 192 392 407 198 199 200 193 202 391 65 403 405 64 204 299 284 285 303 298 297 308 304 420 165 167 188 99 104 102 300 106 108 419 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_clkpwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 352 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 99 104 407 404 406 409 408 410 411 412 102 300 106 85 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_pinsel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 354 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 99 104 407 404 406 409 408 410 411 412 102 300 106 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 307 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 99 104 407 404 406 409 408 410 411 412 102 300 106 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 99 104 407 404 406 409 408 410 411 412 102 300 106 85 87 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_wwdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 296 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 99 104 407 404 406 409 408 410 411 412 102 300 106 85 87 108 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\Events.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 302 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124 54 407 404 406 409 408 410 411 412 405 413 414 415 306 128 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\ConfigDescriptor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 54 407 404 406 409 408 410 411 412 405 413 414 415 306 128 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 143 132 138 139 159 124 145 137 120 140 127 123 147 217 160 166 169 99 104 102 106 85 149 234 122 151</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\DeviceStandardReq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128 120 54 407 404 406 409 408 410 411 412 405 413 414 415 306 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 137 124 138 145 139 159 140 127 123 147 217 160 166 169 99 104 102 106 85 149 234 122 151</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\HostStandardReq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 310 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBMemory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\USBTask.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 54 407 404 406 409 408 410 411 412 405 413 414 415 306 128 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 143 139 159 124 140 127 137 123 147 217 160 166 169 99 104 102 106 85 149 234 120 138 122 151</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Device_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283 228</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128 127 54 407 404 406 409 408 410 411 412 405 413 414 415 306 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 137 124 140 123 147 217 160 166 169 99 104 102 106 85 145 139 159 120 138 122 151 149 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Endpoint_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 282 332</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128 123 54 407 404 406 409 408 410 411 412 405 413 414 415 306 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 147 217 160 166 169 99 104 102 106 85 145 139 159 124 140 127 137 149 234 120 138 122 151</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\EndpointStream_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315 321</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128 151 54 407 404 406 409 408 410 411 412 405 413 414 415 306 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 145 139 159 124 140 127 137 123 147 217 160 166 169 99 104 102 106 85 149 234 120 138 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Host_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 294 318</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\Pipe_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262 227</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\PipeStream_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 333 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\USBController_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139 54 407 404 406 409 408 410 411 412 405 413 414 415 306 128 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 143 159 124 145 138 137 120 140 127 123 147 217 160 166 169 99 104 102 106 85 149 234 122 151</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 292 386</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Ports\ARM-Cortex-M3\IAR\os_cpu_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 361 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 276 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166 169 99 104 407 404 406 409 408 410 411 412 102 300 106 85 143 128 145 54 405 413 414 415 306 53 55 51 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 139 159 124 140 127 137 123 147 217 160 149 234 120 138 122 151</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 365 384</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_flag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 362 387</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 350 381</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 385</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Ports\ARM-Cortex-M3\IAR\os_cpu_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 25 364</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_cfg_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 360 383</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_msg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 366 382</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_pend_multi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 353 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_prio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 338 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_q.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_sem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 370 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_stat.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 349 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_time.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 367 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_tmr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 368 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\Source\os_var.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 369 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 65 403 405 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417 188 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-CPU\cpu_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274 320</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193 191 192 392 407 404 406 409 408 410 411 412 198 202 391 65 403 405 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_ascii.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 256</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199 191 192 392 407 404 406 409 408 410 411 412 198</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-CPU\ARM-Cortex-M3\cpu_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 311 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 65 403 405 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-CPU\ARM-Cortex-M3\cpu_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 7 295</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_math.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 335 221</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200 191 192 392 407 404 406 409 408 410 411 412 193 198 202 391 65 403 405 64 204 199 286 414 299 284 285 303 298 297 308 304 416 417</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 351 312</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202 191 192 392 407 404 406 409 408 410 411 412 193 198 204 199 391 65 403 405 64 286 414 299 284 285 303 298 297 308 304 416 417</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-LIB\lib_str.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 358 239</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204 191 192 392 407 404 406 409 408 410 411 412 198 199 391 65 403 405 64 286 414 299 284 285 303 298 297 308 304 416 417</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uCOS-III\uC-LIB\Ports\ARM-Cortex-M3\lib_mem_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 223 356</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MassStorageClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\RNDISClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MIDIClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 316</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\AudioClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 323</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\CDCClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 325</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 257</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\HIDParser.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 328</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Core\LPC\DCD\LPC17XX\Endpoint_LPC17xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 128 123 54 407 404 406 409 408 410 411 412 405 413 414 415 306 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 147 217 160 166 169 99 104 102 106 85 145 139 159 124 140 127 137 149 234 120 138 122 151 91 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\HIDClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\config_srv\config_srv.c</name>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 422 405</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1788\Drivers\source\lpc177x_8x_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 373 374</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113 99 104 407 404 406 409 408 410 411 412 102 300 106 85 87 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 400 380</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\Descriptors.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 305 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 395 58 54 407 404 406 409 408 410 411 412 405 413 414 415 306 128 53 55 51 300 50 57 66 167 65 403 191 192 392 193 198 202 391 64 204 199 286 299 284 285 303 298 297 308 304 416 417 188 165 59 143 145 139 159 124 140 127 137 123 147 217 160 166 169 99 104 102 106 85 149 234 120 138 122 151 131 132 324 231 331 347 233 313 327 309 317 260 259 241 219 251 322 222 250 258 269 229 255 341 388</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 398</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 359 397</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 407 404 406 409 408 410 411 412 413 414 415 416 417 418 85 99 104 102 300 106 108 419 405 420 198 191 192 392 165 193 202 391 65 403 64 204 199 286 299 284 285 303 298 297 308 304 421 101 91 112 80 423 66 167 188</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\utils\utils_srv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 357 270</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 416 404 406 409 408 410 411 412 414 417 286 413 415 299 284 285 303 298 297 308 421 405</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\app_vect.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 401</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334 399</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 418 404 406 409 408 410 411 412 413 414 415 416 417 286 264 288 275 191 192 392 407 198 199 200 193 202 391 65 403 405 64 204 299 284 285 303 298 297 308 304 420 165 167 188</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\src\usb_task\usb_talk_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\LPC-DfuSe-Bootloader.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 380</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 326</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 100 36 32 26 228 321 332 161 22 226 37 318 266 227 225 19 27 399 40 1 20 7 3 320 337 345 256 221 312 223 239 18 8 9 10 374 11 397 383 381 25 4 386 387 385 384 207 382 70 69 71 67 52 56 68 206 43 44 330 38 270 379 378 377</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MassStorageClassDevice.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\RNDISClassDevice.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\MIDIClassDevice.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\AudioClassDevice.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\CDCClassDevice.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Common\HIDParser.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\src\usb_task\nxpUSBLib\Drivers\USB\Class\Device\HIDClassDevice.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,54 @@
+[Strings]
+DeviceName = "Redut DfuSe"
+VendorName = "STM"
+SourceName = "Redut DfuSe Install Disk"
+DeviceID   = "VID_0483&PID_DF11&MI_00"
+DeviceGUID = {3fe809ab-fb91-4cb5-a643-69670d52366f}
+
+[Version]
+Signature = "$Windows NT$"
+Class = USBDevice
+ClassGuid={88BAE032-5A81-49f0-BC3D-A4FF138216D6}
+Provider = %VendorName%
+CatalogFile = WinUSBInstallation.cat
+DriverVer = 09/04/2012,13.54.20.543
+
+; ================== Class section ==================
+
+[ClassInstall32]
+AddReg = ClassInstall_AddReg
+
+[ClassInstall_AddReg]
+HKR,,,,%ClassName%
+HKR,,NoInstallClass,,1
+HKR,,IconPath,%REG_MULTI_SZ%,"%systemroot%\system32\setupapi.dll,-20"
+HKR,,LowerLogoVersion,,5.2
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%VendorName% = Standard,NTx86,NTamd64,NTia64
+
+[Standard.NTx86]
+%DeviceName% =USB_Install, USB\%DeviceID%
+
+[Standard.NTamd64]
+%DeviceName% =USB_Install, USB\%DeviceID%
+
+[Standard.NTia64]
+%DeviceName% =USB_Install, USB\%DeviceID%
+; =================== Installation ===================
+
+[USB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[USB_Install.Services]
+Include =winusb.inf
+Needs   = WINUSB.NT.Services
+
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,%DeviceGUID%

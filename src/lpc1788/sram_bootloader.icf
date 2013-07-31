@@ -1,0 +1,70 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+/*-Specials-*/
+define symbol __ICFEDIT_intvec_start__ = 0x00000000;
+/* Place a copy of vectors here */
+define symbol RAM_vectors_start = 0x10000000;
+/*-Memory Regions-*/
+/*Place bootloader into last 32K sector of Flash*/
+define symbol __ICFEDIT_region_ROM_start__ = 0x00070000;
+define symbol __ICFEDIT_region_ROM_end__   = 0x0007FFFF; /* 64K for Bootloader */
+/* Это 64К основной ОЗУ */
+define symbol __ICFEDIT_region_RAM_start__ = 0x10000100;
+define symbol __ICFEDIT_region_RAM_end__   = 0x1000FF0F; /* 32 bytes for IAP and 128 bytes for IAP stack */
+/*-Sizes-*/
+/* Стек не меньше 0x200. На 0x100 уже падает */
+define symbol __ICFEDIT_size_cstack__ = 0x200;
+/* Куча используется только для PolarSSL */
+define symbol __ICFEDIT_size_heap__   = 0x100;
+/**** End of ICF editor section. ###ICF###*/
+
+define memory mem with size = 4G;
+/*define region CRP_region   = mem:[from 0x2FC   to 0x2FF];*/
+define region ROM_region   = mem:[from __ICFEDIT_region_ROM_start__   to __ICFEDIT_region_ROM_end__];
+define region RAM_region   = mem:[from __ICFEDIT_region_RAM_start__   to __ICFEDIT_region_RAM_end__];
+
+/* Это первый блок (8К) дополнительной памяти */
+define symbol _PER_RAM00_start__  = 0x20000000;
+define symbol _PER_RAM00_end__    = 0x20001FFF;
+define region PER00_RAM_region = mem:[from _PER_RAM00_start__ to _PER_RAM00_end__];
+
+/* Это второй блок (8К) дополнительной памяти */
+define symbol _PER_RAM01_start__  = 0x20002000;
+define symbol _PER_RAM01_end__    = 0x20003FFF;
+define region PER01_RAM_region = mem:[from _PER_RAM01_start__ to _PER_RAM01_end__];
+
+/* Это третий блок (16К) дополнительной памяти */
+define symbol _PER_RAM1_start__   = 0x20004000;
+define symbol _PER_RAM1_end__     = 0x20007FFF;
+define region PER1_RAM_region = mem:[from _PER_RAM1_start__ to _PER_RAM1_end__];
+
+define symbol _AHB_RAM_start__  = 0x20080000;
+define symbol _AHB_RAM_end__    = 0x200BFFFF;
+define region AHB_RAM_region = mem:[from _AHB_RAM_start__ to _AHB_RAM_end__];
+
+define region share_region = mem:[from 0x1000FF10 to 0x1000FF5F];
+
+define block CSTACK    with alignment = 8, size = __ICFEDIT_size_cstack__   { };
+define block HEAP      with alignment = 8, size = __ICFEDIT_size_heap__     { };
+
+do not initialize  { section .noinit };
+do not initialize  { section USB_DMA_RAM };
+do not initialize  { section share_section };
+/*Initialize readonly to copy into RAM*/
+initialize by copy { readonly, readwrite };
+/*initialize by copy { readwrite };*/
+
+/*A placement for copy of vectors*/
+place at address mem:RAM_vectors_start { section .vectors_RAM };
+place at address mem:__ICFEDIT_intvec_start__ { readonly section .intvec };
+/*place at address mem:__ICFEDIT_intvec_start__ { readonly section .vectors_RAM };*/
+place in ROM_region { readonly };
+place in RAM_region { readwrite,
+                        block CSTACK, block HEAP }; 
+/*place in CRP_region { section .crp };*/
+                                
+place in PER00_RAM_region     { section USB_RAM };
+place in PER01_RAM_region     { };
+place in PER1_RAM_region      { section EMAC_DMA_RAM };
+place in share_region         { section share_section };
